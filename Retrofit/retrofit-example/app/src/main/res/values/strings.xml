@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">retrofit-example</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="make_request">Make Request</string>
+    <string name="response">Response</string>
+    <string name="put_name">Your name</string>
+
+</resources>
