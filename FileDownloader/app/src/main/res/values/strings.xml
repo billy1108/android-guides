@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FileDownloader</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_services">Button servicies from url</string>
+    <string name="btn_decode">Button decode bytes from string</string>
+
+</resources>
