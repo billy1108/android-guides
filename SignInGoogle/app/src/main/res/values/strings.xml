@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SignInGoogle</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logout">Log Out</string>
+    <string name="disconect">Disconect</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+    <string name="title.login">Comienza Ahora</string>
+    <string name="title.user.detail">User Detail</string>
+</resources>
