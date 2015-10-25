@@ -23,6 +23,9 @@
         <activity android:name=".activities.ListUserActivity">
         </activity>
 
+        <activity android:name=".activities.UserDetailActivity">
+        </activity>
+
 
     </application>
 

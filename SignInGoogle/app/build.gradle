@@ -6,7 +6,7 @@ android {
         config {
             keyAlias 'SignInGoogle'
             keyPassword '123456'
-            storeFile file('/Users/billycaballero/Documents/certificates/sign-in-google/sign-in-google.jks')
+            storeFile file('C:/Users/Billy/Documents/certificates/sign-in-google/sign-in-google.jks')
             storePassword '123456'
         }
     }
@@ -41,6 +41,5 @@ dependencies {
     compile 'com.android.support:design:23.0.1'
     compile 'com.google.android.gms:play-services-identity:8.1.0'
     compile 'com.google.android.gms:play-services-plus:8.1.0'
-
     compile 'com.squareup.picasso:picasso:2.5.2'
 }
