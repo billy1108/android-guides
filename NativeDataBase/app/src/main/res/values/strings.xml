@@ -3,7 +3,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="operation.select.register">Register User</string>
-    <string name="operation.select.list">List User</string>
+    <string name="operation.select.list">Buscar Persona</string>
+    <string name="operation.select.asyntask">Run AsyncTask</string>
 
     <string name="user.register.name">Name</string>
     <string name="user.register.dni">DNI</string>

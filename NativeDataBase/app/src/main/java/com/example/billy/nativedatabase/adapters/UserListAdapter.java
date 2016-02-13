@@ -13,6 +13,7 @@ import com.example.billy.nativedatabase.R;
 import com.example.billy.nativedatabase.activities.UserDetailActivity;
 import com.example.billy.nativedatabase.models.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -78,6 +79,11 @@ public class UserListAdapter  extends RecyclerView.Adapter<UserListAdapter.Simpl
                 (Activity) context, items.get(position));
     }
 
+    public void swap(ArrayList<User> datas){
+        items.clear();
+        items.addAll(datas);
+        notifyDataSetChanged();
+    }
 
 }
 

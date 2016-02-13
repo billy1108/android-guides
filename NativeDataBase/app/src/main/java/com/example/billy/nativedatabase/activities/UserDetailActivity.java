@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 import com.example.billy.nativedatabase.R;
@@ -61,8 +60,6 @@ public class UserDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_detail);
 
-        setToolbar();// Añadir action bar
-
         Intent i = getIntent();
         name = i.getStringExtra(EXTRA_NAME);
         lastName = i.getStringExtra(EXTRA_LAST_NAME);
@@ -81,11 +78,7 @@ public class UserDetailActivity extends AppCompatActivity {
         etDni.setText(dni);
     }
 
-    private void setToolbar() {
-        // Añadir la Toolbar
-        /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);*/
-    }
+
 
 
 }
